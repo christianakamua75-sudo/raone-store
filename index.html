@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ra One Billionaire Store</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<div id="loader"><div class="spinner"></div></div>
+
+<header>
+<div class="logo">RA ONE</div>
+<nav>
+<a href="#home">Home</a>
+<a href="#products">Products</a>
+<a href="#cart">Cart</a>
+<a href="#contact">Contact</a>
+</nav>
+</header>
+
+<section id="home" class="hero">
+<h1>Welcome to Billionaire Luxury Store</h1>
+<p>Where Premium Meets Power</p>
+<button onclick="scrollProducts()">Explore Collection</button>
+</section>
+
+<section id="products" class="products">
+<h2>Exclusive Collection</h2>
+<div class="grid">
+
+<div class="card">
+<img src="assets/images/product1.jpg">
+<h3>Luxury Smart Watch Elite</h3>
+<p>$499</p>
+<button onclick="addToCart('Luxury Smart Watch Elite', 499)">Add To Cart</button>
+</div>
+
+<div class="card">
+<img src="assets/images/product2.jpg">
+<h3>Noise Canceling Headphones X</h3>
+<p>$399</p>
+<button onclick="addToCart('Noise Canceling Headphones X', 399)">Add To Cart</button>
+</div>
+
+<div class="card">
+<img src="assets/images/product3.jpg">
+<h3>Diamond Edition Speaker</h3>
+<p>$599</p>
+<button onclick="addToCart('Diamond Edition Speaker', 599)">Add To Cart</button>
+</div>
+
+<div class="card">
+<img src="assets/images/product4.jpg">
+<h3>Pro Gaming Mouse Titanium</h3>
+<p>$299</p>
+<button onclick="addToCart('Pro Gaming Mouse Titanium', 299)">Add To Cart</button>
+</div>
+
+<div class="card">
+<img src="assets/images/product5.jpg">
+<h3>4K AI Security Camera</h3>
+<p>$459</p>
+<button onclick="addToCart('4K AI Security Camera', 459)">Add To Cart</button>
+</div>
+
+<div class="card">
+<img src="assets/images/product6.jpg">
+<h3>Ultra Power Bank 50000mAh</h3>
+<p>$199</p>
+<button onclick="addToCart('Ultra Power Bank 50000mAh', 199)">Add To Cart</button>
+</div>
+
+</div>
+</section>
+
+<section id="cart" class="cart">
+<h2>Your Cart</h2>
+<div id="cartItems"></div>
+<h3 id="total"></h3>
+</section>
+
+<section id="contact" class="contact">
+<h2>Contact Us</h2>
+<a href="https://wa.me/237650874171" target="_blank">WhatsApp</a>
+<a href="mailto:christianakamua75@gmail.com">Gmail</a>
+<a href="https://facebook.com/profile.php?id=61574790424359" target="_blank">Facebook</a>
+</section>
+
+<footer>
+<p>© 2026 RA ONE - BILLIONAIRE LEVEL</p>
+</footer>
+
+<script src="assets/js/script.js"></script>
+</body>
+</html>
